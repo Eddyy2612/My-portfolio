@@ -1,0 +1,222 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    /* CSS Variables */
+    --primary:#5b21b6;
+    --secondary:#a855f7;
+    --background: #a78bfa;
+}
+
+body{
+    font-family: 'Mukta', sans-serif;
+    background: var(--background);
+}
+
+button{
+    font-family: 'Mukta', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: var(--primary);
+    font-size: 20px;
+}
+
+h1{
+    font-size: 50px;
+    line-height: 10px;
+    font-weight: 600;
+}
+
+h2{
+    font-size:35px ;
+    color: var(--primary);
+    text-align: center;;
+}
+
+h4{
+    font-size: 24px;
+    line-height: 0px;
+}
+
+p{
+    font-size: 16px;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+nav a{
+    margin:10px;
+    font-weight: 600;
+}
+
+#home-container{
+    display:flex;
+    justify-content: center;
+    margin-top: 30px;
+    /* border: 1px solid black; */
+    padding: 10px 10%;
+      
+}
+
+#home-container img{
+    width: 80%;
+    height: 80%;
+    margin-left: 30%;
+}
+
+#home-container .home-info{
+    width: 50%;
+}
+
+#home-container .home-description{
+    font-size: 24px;
+}
+
+#home-container button{
+    background: var(--primary);
+    width: 150px;
+    height: 40px;
+    border: 1px solid var(--primary);
+    border-radius: 5px;
+}
+
+#home-container button a{
+    color: white;
+    font-weight: 600;
+}
+
+#aboutme-container{
+    margin: 120px 0;
+    
+}
+
+#aboutme-container .aboutme-description{
+    font-size: 20px;
+    margin: 0 20%;
+    /* text-align: center; */
+}
+
+#project-container{
+    margin:0 10%;
+}
+
+#project-container .project-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+#project-container .project-cards .project-card{
+    width: 300px;
+    height: auto;
+    background:#8b5cf6;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 30px;
+
+}
+
+#project-container .project-cards .project-card img{
+    width:260px;
+    border-radius: 5px;
+
+}
+
+#project-container .project-cards .project-card span{
+    background: #c4b5fd;
+    color: black ;
+    border-radius: 2px;
+    padding: 2px 5px;
+}
+
+#contact-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact-container .gmail{
+    background: var(--primary);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+#contact-container .gmail a{
+    color: white;
+   
+}
+
+#contact-container .social-links{
+    margin: 20px 0;
+}
+
+
+#contact-container .social-links i{
+    font-size: 36px;
+    margin: 10px;
+    color: var(--primary);
+}
+
+footer{
+    width: 100vw;
+    text-align: center;
+
+}
+
+@media (max-width: 800px){
+    h1{
+        font-size: 36px;
+        line-height: 32px;
+        width: 300px;
+    }
+}
+
+#home-container{
+    flex-direction: column;
+}
+
+#home-container .home-info{
+    width: 300px;
+}
+
+#home-container img{
+    margin: 20px auto;
+}
+
+#aboutme-container .aboutme-description{
+    margin: 0 20px;
+    text-align: center;
+    
+}
+
+#project-container .project-cards .project-card .project-description{
+    text-align: justify;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
